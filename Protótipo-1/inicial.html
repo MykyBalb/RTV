@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTV Iluminação</title>
+    <link id="logo" rel="shortcut icon" href="https://i.ibb.co/6tpg0jS/logo-rtv.png" type="image/x-icon">
+    <link rel="stylesheet" href="Estilização/careca.css">
+    <script src="Script/dropdown.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="" alt="">
+        <h1>RTV <br>iluminação</h1>
+
+    </header>
+    <nav>
+        <div class="info">
+            <a class="cabecalho" href="https://wa.me/5516993497551" target="blank">
+                <img class="zap" src="Imagens/whatsapp.png" alt="icon_whatsapp">
+                <p id="fone">(16) 99349-7551</p>
+            </a>
+        </div>
+        <div>
+            <a class="cabecalho" href="https://maps.app.goo.gl/EdKrCiHthECqG5iJA" target="blank">
+                <img class="ponteiro" src="https://i.ibb.co/w6Fk7ff/fixar-mapa.png" alt="icon_ponteiro">
+                <p>R. Major José Inácio - 3530</p>
+            </a>
+        </div>
+        <div class="dropdown">
+            <div onmouseover="entrada()" ; onmouseout="saida()" class="programacao cabecalho">
+                <img class="reloglio" src="Imagens/relogio.png" alt="icon_relogio">
+                <p>horários</p>
+            </div>
+            <div>
+                <ul id="programacao-content">
+                    <li>Segunda-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                    <hr class="hour">
+                    <li>Terça-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                    <hr class="hour">
+                    <li>Quarta-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                    <hr class="hour">
+                    <li>Quinta-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                    <hr class="hour">
+                    <li>Sexta-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                    <hr class="hour">
+                    <li>Sábado:<br>9:00 - 14:00</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="mobile">
+        <div class="container" onclick="menu(this);">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div class="menu">
+            <ul id="menu-mobile">
+                <li><a class="cabecalho" href="https://wa.me/5516993497551" target="blank">
+                        <img class="zap" src="https://i.ibb.co/QFdX8xR/whatsapp.png" alt="icon_whatsapp">
+                        <p id="fone">(16) 99349-7551</p>
+                    </a></li>
+                <li><a class="cabecalho" href="https://maps.app.goo.gl/EdKrCiHthECqG5iJA" target="blank">
+                        <img class="ponteiro" src="https://i.ibb.co/w6Fk7ff/fixar-mapa.png" alt="icon_ponteiro">
+                        <p>R. Major José Inácio - 3530</p>
+                    </a></li>
+                <li>
+                    <div class="programacao cabecalho">
+                        <img class="reloglio" src="https://i.ibb.co/J5hjpGY/relogio.png" alt="icon_relogio">
+                        <p>horários:</p>
+                    </div>
+                    <div class="centralizar">
+                        <ul id="horario">
+                            <li>Segunda-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                            <hr class="hour">
+                            <li>Terça-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                            <hr class="hour">
+                            <li>Quarta-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                            <hr class="hour">
+                            <li>Quinta-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                            <hr class="hour">
+                            <li>Sexta-feira:<br>09:00 - 12:00<br>13:00 - 19:00</li>
+                            <hr class="hour">
+                            <li>Sábado:<br>9:00 - 14:00</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+<div class="animacao">
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">PLAFON QUADRADO</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 12W/24W</li>
+                <li>Lumnes: 960/1.430</li>
+                <li>Tipo de alimentação: Energia 110/220V</li>
+                <li>Dimensões: 17cm x 17cm x 2,8cm/30cm x 30cm x 3,8cm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\p_quadrado.png"
+                alt="L_plafon">
+        </div>
+    </section>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">PLAFON REDONDO</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 12W</li>
+                <li>Lumnes: 720</li>
+                <li>Tipo de alimentação: Energia 110/220V</li>
+                <li>Dimensões: 17cm x 4cm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\p_red.png"
+                alt="L_plafon-red">
+        </div>
+    </section>
+</div>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">SPOT QUADRADO</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 5W</li>
+                <li>Tipo de alimentação: Energia 110/220V</li>
+                <li>Dimensões: 9cm x 9cm x 2,5cm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\spot_quad.png" alt="spot-q">
+        </div>
+    </section>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">SPOT REDONDO</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 5W/7W</li>
+                <li>Tipo de alimentação: Energia 110/220</li>
+                <li>Dimensões: 9cm x 2,5cm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\spot_red.png" alt="spot-r">
+        </div>
+    </section>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">LINEAR</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 36W</li>
+                <li>Lumnes: 2.400</li>
+                <li>Tipo de alimentação: Energia 110/220V</li>
+                <li>Dimensões: 1200mm x 75mm x 23mm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="https://i.ibb.co/DtFNY9z/L-linear.png" alt="spot-q">
+        </div>
+    </section>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">T8</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 20W/10W</li>
+                <li>Tipo de alimentação: Energia 110/220</li>
+                <li>Dimensões: 1,20m x 3cm/60cm x 3cm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\t_oito.png" alt="t_oito">
+        </div>
+    </section>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">BULBO A60</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 20W/30W/40W</li>
+                <li>Lumnes: 1500/2400/3200</li>
+                <li>Tipo de alimentação: Energia 110/220V</li>
+                <li>Dimensões: 70mm x 108mm/81mm x 129mm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\bulbo_quad.png" alt="bulbo_a60">
+        </div>
+    </section>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">BULBO A60</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 9W/12W/15W</li>
+                <li>Lumnes: 810/1018/1311</li>
+                <li>Tipo de alimentação: Energia 110/220V</li>
+                <li>Dimensões: 60mm x 106mm/55mm x 102mm/60mm x 116mm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\bulbo.png" alt="bulbo_a60">
+        </div>
+    </section>
+
+    <section class="lamps">
+        <div class="especificacao">
+            <h1 id="n_lamp" class="margin">REFLETOR</h1>
+            <details>
+                <summary>Informações</summary>
+                <li>Potência: 50W/100W</li>
+                <li>Lumnes: 4000/8000</li>
+                <li>Tipo de alimentação: Energia 110/220V</li>
+                <li>Dimensões: 95mm x 75mm x 21mm/156mm x 131mm x 28mm</li>
+            </details>
+        </div>
+        <div class="animation">
+            <img class="imagem" src="Imagens\lamps\refletor.png" alt="refletor">
+        </div>
+    </section>
+
+
+
+    <!-- https://i.ibb.co/cDw9f8v/IMG-20240622-WA0021.jpg -->
+    <!-- cor base: #0000CD -->
+
+</body>
+
+</html>
